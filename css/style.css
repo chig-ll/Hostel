@@ -374,11 +374,13 @@ body {
 }
 
 .special-left-one {
-  background-image: url(/img/darken.png), url(/img/m-ostrov.png);
+  background-image: linear-gradient(90deg, rgba(48, 64, 89, 0.84) 0%, rgba(53, 65, 83, 0) 66.67%), url(/img/m-ostrov.png);
 }
 
+
+
 .special-left-two {
-  background-image: url(/img/darken.png), url(/img/m-ostrov-2.png);
+  background-image: linear-gradient(90deg, rgba(48, 64, 89, 0.84) 0%, rgba(53, 65, 83, 0) 66.67%), url(/img/m-ostrov-2.png);
 }
 
 .special-items-right {
