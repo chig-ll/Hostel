@@ -20,8 +20,8 @@ img {
 @font-face {
   font-family: 'Muller';
   src: local('Muller-Regular'),
-    url('/fonts/MullerRegular.woff2') format('woff2'),
-    url('/fonts/MullerRegular.woff') format('woff');
+    url('../fonts/MullerRegular.woff2') format('woff2'),
+    url('../fonts/MullerRegular.woff') format('woff');
   font-display: swap;
   font-weight: 400;
   font-style: normal;
@@ -30,8 +30,8 @@ img {
 @font-face {
   font-family: 'Muller';
   src: local('Muller-Medium'),
-    url('/fonts/MullerMedium.woff2') format('woff2'),
-    url('/fonts/MullerMedium.woff') format('woff');
+    url('../fonts/MullerMedium.woff2') format('woff2'),
+    url('../fonts/MullerMedium.woff') format('woff');
   font-display: swap;
   font-weight: 500;
   font-style: normal;
@@ -41,8 +41,8 @@ img {
 @font-face {
   font-family: 'Muller';
   src: local('Muller-Bold'),
-    url('/fonts/MullerBold.woff2') format('woff2'),
-    url('/fonts/MullerBold.woff') format('woff');
+    url('../fonts/MullerBold.woff2') format('woff2'),
+    url('../fonts/MullerBold.woff') format('woff');
   font-display: swap;
   font-weight: 700;
   font-style: normal;
@@ -374,17 +374,17 @@ body {
 }
 
 .special-left-one {
-  background-image: linear-gradient(90deg, rgba(48, 64, 89, 0.84) 0%, rgba(53, 65, 83, 0) 66.67%), url(/img/m-ostrov.png);
+  background-image: linear-gradient(90deg, rgba(48, 64, 89, 0.84) 0%, rgba(53, 65, 83, 0) 66.67%), url(../img/m-ostrov.png);
 }
 
 
 
 .special-left-two {
-  background-image: linear-gradient(90deg, rgba(48, 64, 89, 0.84) 0%, rgba(53, 65, 83, 0) 66.67%), url(/img/m-ostrov-2.png);
+  background-image: linear-gradient(90deg, rgba(48, 64, 89, 0.84) 0%, rgba(53, 65, 83, 0) 66.67%), url(../img/m-ostrov-2.png);
 }
 
 .special-items-right {
-  background-image: url(/img/nomer-luks.png);
+  background-image: url(../img/nomer-luks.png);
 }
 
 .title-h3-left {
@@ -657,7 +657,7 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: flex-end;
-  background-image: url(/img/Hotel-last.jpg);
+  background-image: url(../img/Hotel-last.jpg);
 }
 
 .placement-last-link::after {
